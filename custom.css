@@ -1,0 +1,79 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.contanier {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.result-contanier {
+  width: 100%;
+  height: auto;
+}
+.row {
+  padding: 2rem 5rem;
+}
+.title-box {
+  min-width: 900px;
+}
+.title-box h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.title-box p {
+  font-size: 2rem;
+  text-align: center;
+}
+.title-box h3 {
+  font-size: 2.5rem;
+  background: antiquewhite;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+.result-table {
+  min-width: 900px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.result-table tr th {
+  padding: 2rem;
+  font-size: 2rem;
+}
+.result-table tr td {
+  padding: 0.5;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.result-table .tr-3 td input,
+.result-table .tr-4 td input,
+.result-table .tr-5 td input,
+.result-table .tr-6 td input,
+.result-table .tr-7 td input,
+.result-table .tr-8 td input,
+.result-table .tr-9 td input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 1.3rem;
+  outline: none;
+}
+.result-table .tr-3 td button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  border: none;
+  background: #000;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
